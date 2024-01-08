@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo-data-jpa
+    username: app_user
+    password: app_user
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
